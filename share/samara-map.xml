@@ -1,0 +1,37 @@
+<tube name="Самарский метрополитен">
+  <!-- https://ru.wikipedia.org/wiki/Самарский_метрополитен -->
+  <stations>
+
+    <!-- https://ru.wikipedia.org/wiki/Первая_линия_(Самара) -->
+    <station id="1-01" name="Российская" line="Первая линия" link="1-02"/>
+    <station id="1-02" name="Московская" line="Первая линия" link="1-01,1-03"/>
+    <station id="1-03" name="Гагаринская" line="Первая линия" link="1-02,1-04"/>
+    <station id="1-04" name="Спортивная" line="Первая линия" link="1-03,1-05"/>
+    <station id="1-05" name="Советская" line="Первая линия" link="1-04,1-06"/>
+    <station id="1-06" name="Победа" line="Первая линия" link="1-05,1-07"/>
+    <station id="1-07" name="Безымянка" line="Первая линия" link="1-06,1-08"/>
+    <station id="1-08" name="Кировская" line="Первая линия" link="1-07,1-09"/>
+    <station id="1-09" name="Юнгородок" line="Первая линия" link="1-08"/>
+
+    <!-- https://ru.wikipedia.org/wiki/Вторая_линия_(Самара) -->
+<!--
+    <station id="2-01" name="" line="Вторая линия" link="2-02"/>
+    <station id="2-02" name="" line="Вторая линия" link="2-01,2-03"/>
+    <station id="2-03" name="" line="Вторая линия" link="2-02,2-04"/>
+    <station id="2-04" name="" line="Вторая линия" link="2-03,2-05"/>
+    <station id="2-05" name="" line="Вторая линия" link="2-04,2-06"/>
+    <station id="2-06" name="" line="Вторая линия" link="2-05,2-07"/>
+    <station id="2-07" name="" line="Вторая линия" link="2-06,2-08"/>
+    <station id="2-08" name="" line="Вторая линия" link="2-07,2-09"/>
+    <station id="2-09" name="" line="Вторая линия" link="2-08,2-10"/>
+    <station id="2-10" name="" line="Вторая линия" link="2-09,2-11"/>
+    <station id="2-11" name="" line="Вторая линия" link="2-10,2-12"/>
+    <station id="2-12" name="" line="Вторая линия" link="2-11,2-13"/>
+    <station id="2-13" name="" line="Вторая линия" link="2-12,2-14"/>
+    <station id="2-14" name="" line="Вторая линия" link="2-13,2-15"/>
+    <station id="2-15" name="" line="Вторая линия" link="2-14,2-16"/>
+    <station id="2-16" name="" line="Вторая линия" link="2-15,2-17"/>
+    <station id="2-17" name="" line="Вторая линия" link="2-16,2-18"/>
+    <station id="2-18" name="" line="Вторая линия" link="2-17"/> -->
+  </stations>
+</tube>
