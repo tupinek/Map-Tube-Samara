@@ -160,7 +160,7 @@ L<Map::Tube::Warsaw>.
 
 =head1 REPOSITORY
 
-L<https://github.com/Manwar/Map-Tube-Samara>
+L<https://github.com/tupinek/Map-Tube-Samara>
 
 =head1 AUTHOR
 
