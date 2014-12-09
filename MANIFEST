@@ -19,6 +19,7 @@ META.yml
 README
 Samara.pm
 share/samara-map.xml
+SIGNATURE
 t/Map-Tube-Samara/00-use.t
 t/Map-Tube-Samara/01-version.t
 t/Map-Tube-Samara/02-pod_coverage.t
