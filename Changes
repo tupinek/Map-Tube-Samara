@@ -1,4 +1,5 @@
 0.02
+ - Add get_lines() method to doc.
  - Remove executable bit from samara-map.xml file.
  - Update copyright years to 2015.
 
