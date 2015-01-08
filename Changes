@@ -8,6 +8,7 @@
  - Add get_lines() method to doc.
  - Add get_stations() method to doc.
  - Remove executable bit from samara-map.xml file.
+ - Remove obsolete utf8 pragma from EXAMPLE2 section in doc.
  - Update copyright years to 2015.
 
 0.01 2014-12-09T10:30:44+01:00

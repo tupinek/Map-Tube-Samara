@@ -129,7 +129,6 @@ For more information about Samara Map, click L<here|https://en.wikipedia.org/wik
 
  # Pragmas.
  use strict;
- use utf8;
  use warnings;
 
  # Modules.
