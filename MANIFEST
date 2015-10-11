@@ -5,6 +5,8 @@ examples/ex3.pl
 examples/ex4.pl
 images/ex3.png
 inc/Module/Install.pm
+inc/Module/Install/AuthorRequires.pm
+inc/Module/Install/AuthorTests.pm
 inc/Module/Install/Base.pm
 inc/Module/Install/Can.pm
 inc/Module/Install/Fetch.pm
@@ -23,10 +25,10 @@ README
 Samara.pm
 share/samara-map.xml
 SIGNATURE
-t/Map-Tube-Samara/00-use.t
-t/Map-Tube-Samara/01-version.t
-t/Map-Tube-Samara/02-pod_coverage.t
-t/Map-Tube-Samara/03-pod.t
-t/Map-Tube-Samara/04-get_shortest_route.t
-t/Map-Tube-Samara/05-name.t
-t/Map-Tube-Samara/06-xml.t
+t/Map-Tube-Samara/01-use.t
+t/Map-Tube-Samara/02-version.t
+t/Map-Tube-Samara/03-get_shortest_route.t
+t/Map-Tube-Samara/04-name.t
+t/Map-Tube-Samara/05-xml.t
+xt/Map-Tube-Samara/01-pod_coverage.t
+xt/Map-Tube-Samara/02-pod.t
