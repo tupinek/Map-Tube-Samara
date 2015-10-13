@@ -8,4 +8,4 @@ use Test::More 'tests' => 2;
 use Test::NoWarnings;
 
 # Test.
-is($Map::Tube::Samara::VERSION, 0.03, 'Version.');
+is($Map::Tube::Samara::VERSION, 0.04, 'Version.');
