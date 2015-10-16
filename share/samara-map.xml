@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!-- https://ru.wikipedia.org/wiki/Самарский_метрополитен -->
 <tube name="Самарский метрополитен">
-  <!-- https://ru.wikipedia.org/wiki/Самарский_метрополитен -->
+  <lines>
+    <line id="1" name="Первая линия" color="red"/>
+<!--    <line id="2" name="Вторая линия" color="blue"/> -->
+  </lines>
   <stations>
 
     <!-- https://ru.wikipedia.org/wiki/Первая_линия_(Самара) -->
