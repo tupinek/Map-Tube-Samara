@@ -1,4 +1,6 @@
 0.05
+ - Add tests for get_line_by_id(), get_line_by_name(), get_lines(),
+   and get_stations() methods.
  - Fix test dependencies.
 
 0.04 2015-10-16T11:49:15+02:00
