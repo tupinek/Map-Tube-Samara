@@ -14,14 +14,14 @@ not run its Makefile.PL or Build.PL.
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA1
 
-SHA1 f29aa6e4949e67cb2e7c33cf13ecaa164695bbf4 Changes
+SHA1 44b5437ff1ca597a6ea96cfee1c899a956746a75 Changes
 SHA1 882221895a73bad18eb9f16a0ce523a968a932c1 LICENSE.artistic_2
 SHA1 507a10efa92555ddddfbe72be27964d9e3eef80f LICENSE.bsd
-SHA1 5ae7a49842ea3c9ccbf9b131bbc8f5f2f8781c55 MANIFEST
-SHA1 f65406fba19cdd30e223efa96c6de6a08bd001ed META.yml
-SHA1 ceac5cd33099ed887254a6a4e8619d0dd21ed90b Makefile.PL
-SHA1 699bc0c7df8e53cb4f9feb97a2e4466566aec0a7 README
-SHA1 e56f5995cc602752f2737f2bfcc4c512904fc2f1 Samara.pm
+SHA1 c49a5ba175a56d0f3cd6b15068a46070fe059526 MANIFEST
+SHA1 59af370367eb4158b2907b12b087f67a78730482 META.yml
+SHA1 913c811349e6e9efd0bddb7a779a437e794a05e8 Makefile.PL
+SHA1 51f64cb8cefe1365a2d65f2efcdca11edd07fdc5 README
+SHA1 b04f6bb008173845d87e8a04004f82a6e659027a Samara.pm
 SHA1 1dc6b2cc35d5c0b8658306d58b5cf225f620e4e8 examples/ex1.pl
 SHA1 8610b0a21ecffead1f931884e4c9c2e075bcf752 examples/ex2.pl
 SHA1 5b80cb816800ee3ad73e4846b45b642c2c49d0ae examples/ex3.pl
@@ -41,23 +41,27 @@ SHA1 c830b819e61bda5eca077c6291293bba61b3b9f2 inc/Module/Install/Win32.pm
 SHA1 cb52b9d6f88d512d448a6f35ed0af0d1201a134b inc/Module/Install/WriteAll.pm
 SHA1 3e9bc0c927cf3f4bf4c5e908a473737520992383 share/samara-map.xml
 SHA1 062364fade479e6c041bdec8184e8ac3321a833b t/Map-Tube-Samara/01-use.t
-SHA1 837fbd78a7691162ecc2ed69952aabf8f2707b0e t/Map-Tube-Samara/02-version.t
+SHA1 fb6ce7f3e50a110c77d78cd603c76366f8e73a3a t/Map-Tube-Samara/02-version.t
 SHA1 8cce39707450f19ab89fc54913a12cb80d6fd55d t/Map-Tube-Samara/03-map.t
-SHA1 0ebe19db948675b1398daa918b55ff3049607deb t/Map-Tube-Samara/04-get_node_by_id.t
-SHA1 a8b45b6140d75ce20db9ce263f7f6759234fd159 t/Map-Tube-Samara/05-get_node_by_name.t
-SHA1 24ae77b508030a55f4c51ee64839385b46483d3f t/Map-Tube-Samara/06-get_shortest_route.t
-SHA1 87b019d6b684b76953f93325f44c423dbf3cf4bb t/Map-Tube-Samara/07-name.t
-SHA1 03325ea7a50b0125c18932f6c3841742c1567ebb t/Map-Tube-Samara/08-xml.t
+SHA1 cafd3f9c413d657254b637bf369c57a9427ca125 t/Map-Tube-Samara/04-get_line_by_id.t
+SHA1 964ce12b2cff06ca40ed3a22f9d7f7d8bbd7d5aa t/Map-Tube-Samara/05-get_line_by_name.t
+SHA1 1eef18a4161a6470009f92db43cdf5da70125bff t/Map-Tube-Samara/06-get_lines.t
+SHA1 0ebe19db948675b1398daa918b55ff3049607deb t/Map-Tube-Samara/07-get_node_by_id.t
+SHA1 a8b45b6140d75ce20db9ce263f7f6759234fd159 t/Map-Tube-Samara/08-get_node_by_name.t
+SHA1 24ae77b508030a55f4c51ee64839385b46483d3f t/Map-Tube-Samara/09-get_shortest_route.t
+SHA1 0d118b9c76866d0937fbde17ce41a10df05d6393 t/Map-Tube-Samara/10-get_stations.t
+SHA1 87b019d6b684b76953f93325f44c423dbf3cf4bb t/Map-Tube-Samara/11-name.t
+SHA1 03325ea7a50b0125c18932f6c3841742c1567ebb t/Map-Tube-Samara/12-xml.t
 SHA1 71a956ea38e947955b9ce4e56dd23c92dd7385fd xt/Map-Tube-Samara/01-pod_coverage.t
 SHA1 084fdf2bff0bfec0c5a513bd031c51fe3dbf1c21 xt/Map-Tube-Samara/02-pod.t
 -----BEGIN PGP SIGNATURE-----
 Version: GnuPG v1
 
-iQEcBAEBAgAGBQJWIMgdAAoJEJe+XXKaIuTlid8H/03dMbzP6YAPdADfpJ54YY44
-d7Kq0GFrFQdHKaQaoQlBErSvb6RkEt+9aMYUXC84Y5yUjvv+bVfD3IOnBUxp/I1v
-JyuF5E5ooA3B5eskMgddlYF21anTzVkmUqD4oWZRgtQN+CmBEasWS2Tv6dVpZXB7
-cemwNuk5vrhQDrUjIr/o9xDa+4JlmWrNm74qG6kBNif7Yw62Z4s445GseRE4hthV
-Fp8Ngo67rUY8ZXCFStdBq9ww2U8hhMiQ0R6rkfPLWnKjEzVb0yLaLFLA42f1cA3Z
-GoqBRIvAFfsdjjkVIu5AsfuELEp8g1xeZyTWgN8XZ0RodMYj2L7M+k7zVeUNEiQ=
-=BnNO
+iQEcBAEBAgAGBQJWINTWAAoJEJe+XXKaIuTlQpgH/3bbaa4oJnGYGeaN+TkCFxrh
+PZhSyEhC70iqgRu8vIMovn3Ms2HaPXJ5EzH1HviwLSOj2u+STPWUFCAoRPMlaE4K
+hLHevZ4Hn6ibjDob2EKWWzVv75YpEWLZzbelK0osSlBI5DFcNif9LKRNvy7Cg9QB
+1ZWY3VxGzHW+AYXZkXnsWyc2SXJfV5t0RecuFQTBfWjRZBjLM1HN3qMxv6ziQsN9
+QIIwZ538nMaj+8HXh7ED7naLgRYrHapHoG8beLiRsEXZOieHdJnaGSAUTFo2vGmf
+oF81fKgJjxRaMqv7tYOc7VoylH/DKizYW6QPL9332cAmOn1fitqd/bekaE3J3vM=
+=rQae
 -----END PGP SIGNATURE-----
