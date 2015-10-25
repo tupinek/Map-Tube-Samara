@@ -1,5 +1,6 @@
 0.06
  - Add commented line 3 to XML map.
+ - Fix commented line 2 in XML map.
  - Implement station order.
  - Rewrite XML map to new version with line IDs.
 
