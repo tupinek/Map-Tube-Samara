@@ -3,7 +3,10 @@
 <tube name="Самарский метрополитен">
   <lines>
     <line id="1" name="Первая линия" color="red"/>
-<!--    <line id="2" name="Вторая линия" color="blue"/> -->
+<!--
+    <line id="2" name="Вторая линия" color="blue"/>
+    <line id="3" name="Третья линия" color="green"/>
+-->
   </lines>
   <stations>
 
@@ -37,6 +40,20 @@
     <station id="2-15" name="" line="2:15" link="2-14,2-16"/>
     <station id="2-16" name="" line="2:16" link="2-15,2-17"/>
     <station id="2-17" name="" line="2:17" link="2-16,2-18"/>
-    <station id="2-18" name="" line="2:18" link="2-17"/> -->
+    <station id="2-18" name="" line="2:18" link="2-17"/>
+-->
+
+    <!-- https://ru.wikipedia.org/wiki/Третья_линия_(Самара) -->
+<!--
+    <station id="3-01" name="Шоколадная Фабрика" line="3:1" link="3-02"/>
+    <station id="3-02" name="Ново-Вокзальная" line="3:2" link="3-01,3-03"/>
+    <station id="3-03" name="Советской Армии" line="3:3" link="3-02,3-04"/>
+    <station id="3-04" name="Орловская" line="3:4" link="3-03,3-05"/>
+    <station id="3-05" name="Гагаринская-3" line="3:5" link="3-04,3-06"/>
+    <station id="3-06" name="Дом Молодёжи" line="3:6" link="3-05,3-07"/>
+    <station id="3-07" name="Куйбышевская" line="3:7" link="3-06,3-08"/>
+    <station id="3-08" name="Зареченская" line="3:8" link="3-07,3-09"/>
+    <station id="3-09" name="Кряж" line="3:9" link="3-08"/>
+-->
   </stations>
 </tube>
